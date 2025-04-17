@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    background-color: #fff;
+    border: 3px solid green;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 8px;
+    padding: 8px;
+}

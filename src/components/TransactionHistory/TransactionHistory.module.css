@@ -1,0 +1,36 @@
+.wrapper {
+    margin-top: 8px;
+    width: 100%;
+    text-align: center;
+    border-spacing: 1px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.wrapper td {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.head {
+    background-color: rgba(0, 0, 0, 0.726);
+    /* border: 1px solid black; */
+}
+
+.headtext {
+    width: 33%;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 20px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.row:nth-child(2n) {
+    background-color: rgba(128, 128, 128, 0.623);
+}
+
+.row>td:first-child {
+    text-align: start;
+    padding: 0 24px;
+}

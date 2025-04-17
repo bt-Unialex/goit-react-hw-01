@@ -1,5 +1,4 @@
 import css from '../Profile/Profile.module.css';
-console.log(css);
 
 export default function Profile({ data }) {
   const { username, tag, location, avatar, stats } = data;

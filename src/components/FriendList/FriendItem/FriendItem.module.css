@@ -1,0 +1,23 @@
+.wrapper {
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+}
+
+.img {
+    display: block;
+}
+
+.name {
+    font-weight: 500;
+}
+
+.status {
+    color: red;
+}
+
+.isOnline {
+    color: green;
+}
